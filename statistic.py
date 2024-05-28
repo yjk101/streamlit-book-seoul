@@ -121,7 +121,7 @@ def corrRealtion(total_df, sgg_nm):
     st.dataframe(corr_coef, use_container_width=False)
 
 # 한글 폰트 설정
-    path = 'C:\Windows\Fonts\H2MJRE.TTF'
+    path = 'NanumGothic-Bold.ttf'
     fontprop = fm.FontProperties(fname=path, size=12)
 
     fig, ax = plt.subplots(figsize=(10, 6))
