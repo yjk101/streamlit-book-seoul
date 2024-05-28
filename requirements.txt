@@ -1,0 +1,9 @@
+prophet
+pandas
+matplotlib
+plotly
+streamlit
+geopandas
+streamlit-option-menu
+millify
+pingouin
