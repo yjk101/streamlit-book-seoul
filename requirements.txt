@@ -7,3 +7,4 @@ geopandas
 streamlit-option-menu
 millify
 pingouin
+seaborn
