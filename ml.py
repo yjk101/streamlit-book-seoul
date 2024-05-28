@@ -24,7 +24,7 @@ def home() :
 def predictType(total_df) :
     
     # 한글 폰트 설정
-    path = 'C:\Windows\Fonts\H2MJRE.TTF'
+    path = '/NanumGothic-Bold.ttf'
     fontprop = fm.FontProperties(fname=path, size=12)
     
     total_df['DEAL_YMD'] = pd.to_datetime(total_df['DEAL_YMD'], format='%Y-%m-%d')
@@ -71,7 +71,7 @@ def predictType(total_df) :
 
 def predictDistrict(total_df) :
     # 한글 폰트 설정
-    path = 'C:\Windows\Fonts\H2MJRE.TTF'
+    path = '/NanumGothic-Bold.ttf'
     fontprop = fm.FontProperties(fname=path, size=12)
 
     total_df['DEAL_YMD'] = pd.to_datetime(total_df['DEAL_YMD'], format='%Y-%m-%d')
